@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanoimagen">40dp</dimen>
+    <dimen name="marginstandar">16dp</dimen>
+    <dimen name="margendetails">64dp</dimen>
+</resources>
