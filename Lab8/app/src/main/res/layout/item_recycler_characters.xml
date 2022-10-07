@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_itemCharacter"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/grey">
+
+    <ImageView
+        android:id="@+id/imageCharacter"
+        android:layout_width="@dimen/tamanoimagen1"
+        android:layout_height="@dimen/tamanoimagen1"
+        android:layout_marginStart="@dimen/marginstandar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+        android:id="@+id/nombreCharacter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        app:layout_constraintStart_toEndOf="@id/imageCharacter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/marginstandar"
+        android:layout_marginStart="@dimen/marginstandar"
+        android:textSize="20sp"
+        android:layout_marginEnd="@dimen/marginstandar"
+        />
+    <TextView
+        android:id="@+id/infoCharacter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/imageCharacter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nombreCharacter"
+        android:layout_marginStart="@dimen/marginstandar"
+        android:text="Informacion"
+        android:layout_marginEnd="@dimen/marginstandar"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

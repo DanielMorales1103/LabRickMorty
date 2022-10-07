@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opcionOrdenarAscendente"
+        android:title="@string/ordenarASC"
+        />
+    <item
+        android:id="@+id/opcionOrdenarDescendente"
+        android:title="@string/ordenarDESC"
+        />
+    <item
+        android:id="@+id/cerrarSesion"
+        android:title="@string/cerrar_sesion"
+        />
+    <item
+        android:id="@+id/sincronizar"
+        android:icon="@drawable/ic_actualizar"
+        android:title="@string/actualizar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/eliminar"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="eliminar"
+        app:showAsAction="always"
+         />
+
+</menu>
